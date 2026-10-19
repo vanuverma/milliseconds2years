@@ -64,9 +64,46 @@ function App() {
         </div>
       </section>
 
+      <section id="info-section">
+        <div className="info-container">
+          <h2>Understanding the Time Conversion Logic</h2>
+          <p>
+            Our ultimate time converter uses a highly precise calculation engine based on a single source of truth: <strong>milliseconds</strong>. 
+            When you enter a value in any field, the system first converts that value into total milliseconds and then immediately redistributes 
+            that total across all other time units. This ensures perfect synchronization and prevents calculation errors.
+          </p>
+          <div className="calculation-details">
+            <h3>Conversion Standards Used:</h3>
+            <ul>
+              <li>1 Second = 1,000 Milliseconds</li>
+              <li>1 Minute = 60 Seconds</li>
+              <li>1 Hour = 60 Minutes</li>
+              <li>1 Day = 24 Hours</li>
+              <li>1 Week = 7 Days</li>
+              <li>1 Month = 30 Days (Standardized)</li>
+              <li>1 Year = 365 Days (Standardized)</li>
+            </ul>
+          </div>
+
+          <div className="seo-content">
+            <h2>The Most Accurate Online Time Conversion Tool</h2>
+            <p>
+              Looking for a quick way to <strong>convert milliseconds to seconds</strong>, <strong>minutes to hours</strong>, or <strong>days to years</strong>? 
+              Our free web-based <strong>time converter</strong> is designed for speed and accuracy. Whether you need to calculate 
+              <strong>time durations</strong> or convert between different <strong>time units</strong>, our tool handles it all instantly. 
+              It is the perfect tool for developers, scientists, and anyone needing a reliable <strong>unit converter</strong> for time-based data.
+            </p>
+            <p>
+              This tool supports various conversions including: &nbsp;
+              <em>milliseconds to seconds, seconds to minutes, minutes to hours, hours to days, days to weeks, weeks to months, months to years and vice-versa.</em>
+            </p>
+          </div>
+        </div>
+      </section>
+
       <section id="spacer"></section>
     </>
   );
 }
 
-export default App
+export default App;
