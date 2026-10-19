@@ -274,7 +274,7 @@ function App() {
         <div className="footer-inner">
           <div className="footer-brand">
             <span className="footer-logo">⏱</span>
-            <span className="footer-name">ms2years</span>
+            <span className="footer-name">milliseconds2years</span>
             <p className="footer-tagline">
               The fastest way to convert between any two time units — from milliseconds to years.
             </p>
